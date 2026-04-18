@@ -20,7 +20,7 @@
 -   **Tam Responsive Tasarım:** Masaüstü, tablet ve mobil cihazlar için optimize edilmiş modern arayüz.
 
 ## 🛠️ Kullanılan Teknolojiler
-[![Netlify Status](https://api.netlify.com/api/v1/badges/PROJE_ID_BURAYA/deploy-status)](https://llm-hardware-brain.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5732abf2-3600-4215-a8b5-ec41b24be70e/deploy-status)](https://llm-hardware-brain.netlify.app)
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
