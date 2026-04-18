@@ -1,16 +1,27 @@
-# React + Vite
+# 🧠 Hardware Brain for Local LLM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hardware Brain**, yerel yapay zeka modellerini (Local LLMs) çalıştırmak isteyen kullanıcılar için tasarlanmış kapsamlı bir **donanım mimarı ve hesaplayıcıdır.** Bu araç, seçtiğiniz GPU'nun seçtiğiniz modeli (Llama 3.1, Mistral, Qwen vb.) çalıştırıp çalıştıramayacağını analiz eder ve tahmini bir performans (tokens/second) sunar.
 
-Currently, two official plugins are available:
+![Hardware Brain Preview]([https://your-netlify-link-screenshot-url.co](https://llm-hardware-brain.netlify.app))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Özellikler
 
-## React Compiler
+-   **Geniş Donanım Kütüphanesi:** NVIDIA (RTX 50, 40, 30 serisi & Workstation), AMD (RX 7000, 6000 & Instinct) ve Apple Silicon (M1, M2, M3 Ultra/Max) dahil 60'tan fazla GPU.
+-   **Güncel LLM Desteği:** Llama 3.1 (405B dahil), Mistral Large 2, DeepSeek V2.5 ve Grok-1 gibi 30'a yakın popüler model.
+-   **Hassas VRAM Analizi:** 4-bit ve 8-bit sıkıştırma (quantization) seçeneklerine göre gerçekçi VRAM ihtiyacı hesaplama.
+-   **Performans Tahmini:** Donanımın bant genişliğine (bandwidth) göre saniyelik token (t/s) üretim hızı tahmini.
+-   **Topluluk Doğrulaması:** Başarılı konfigürasyonları Supabase veritabanına kaydederek diğer kullanıcılarla paylaşma.
+-   **Tam Responsive Tasarım:** Masaüstü, tablet ve mobil cihazlar için optimize edilmiş modern arayüz.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Kullanılan Teknolojiler
 
-## Expanding the ESLint configuration
+-   **Frontend:** [React.js](https://reactjs.org/) & [Vite](https://vitejs.dev/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Database:** [Supabase](https://supabase.com/) (PostgreSQL)
+-   **Deployment:** [Netlify](https://www.netlify.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Hesaplama Mantığı
+
+Uygulama, model boyutunu parametre sayısı üzerinden hesaplar. VRAM ihtiyacı hesaplanırken; modelin ağırlıkları, seçilen bit derinliği (quantization) ve sistemin çalışma payı (overhead) dikkate alınır. Tahmini hız (t/s) ise GPU'nun bellek bant genişliğinin, modelin o anki bellek yüküne bölünmesiyle elde edilir.
+
+**Designed & Developed by [Arda](https://linkedin.com/in/bandalic)**
