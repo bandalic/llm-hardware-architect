@@ -2,7 +2,13 @@
 
 **Hardware Brain**, yerel yapay zeka modellerini (Local LLMs) çalıştırmak isteyen kullanıcılar için tasarlanmış kapsamlı bir **donanım mimarı ve hesaplayıcıdır.** Bu araç, seçtiğiniz GPU'nun seçtiğiniz modeli (Llama 3.1, Mistral, Qwen vb.) çalıştırıp çalıştıramayacağını analiz eder ve tahmini bir performans (tokens/second) sunar.
 
-![Hardware Brain Preview](https://llm-hardware-brain.netlify.app)
+<div align="center">
+
+### [🚀 CANLI DEMOYU GÖRÜNTÜLE](https://llm-hardware-brain.netlify.app)
+
+</div>
+
+---
 
 ## 🚀 Özellikler
 
@@ -15,10 +21,11 @@
 
 ## 🛠️ Kullanılan Teknolojiler
 
--   **Frontend:** [React.js](https://reactjs.org/) & [Vite](https://vitejs.dev/)
--   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
--   **Database:** [Supabase](https://supabase.com/) (PostgreSQL)
--   **Deployment:** [Netlify](https://www.netlify.com/)
+[![Netlify Status](https://api.badge.net/https://llm-hardware-brain.netlify.app)](https://llm-hardware-brain.netlify.app)
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 
 ## 🧠 Hesaplama Mantığı
 
