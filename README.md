@@ -2,7 +2,7 @@
 
 **Hardware Brain**, yerel yapay zeka modellerini (Local LLMs) çalıştırmak isteyen kullanıcılar için tasarlanmış kapsamlı bir **donanım mimarı ve hesaplayıcıdır.** Bu araç, seçtiğiniz GPU'nun seçtiğiniz modeli (Llama 3.1, Mistral, Qwen vb.) çalıştırıp çalıştıramayacağını analiz eder ve tahmini bir performans (tokens/second) sunar.
 
-![Hardware Brain Preview]([https://your-netlify-link-screenshot-url.co](https://llm-hardware-brain.netlify.app))
+![Hardware Brain Preview](https://llm-hardware-brain.netlify.app)
 
 ## 🚀 Özellikler
 
